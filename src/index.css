@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-sports {
+  font-family: 'Chakra Petch', 'Impact', sans-serif;
+}
+
+/* Custom turf and diamond background accents */
+.bg-gridiron-pattern {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-diamond-pattern {
+  background-image: radial-gradient(rgba(234, 179, 8, 0.06) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

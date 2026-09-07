@@ -1,0 +1,6 @@
+{
+  "name": "NFL Wordle & MLB Edition",
+  "description": "Interactive sports guessing game featuring NFL and MLB modes with scouting audibles, attribute radar matching, sound effects, and daily challenges.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
